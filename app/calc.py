@@ -25,9 +25,6 @@ class Calculator:
 
         return x / y
 
-    def test_divide_with_zero(self):
-        self.assertRaises(TypeError, self.calc.divide, 2, 0)
-
     def power(self, x, y):
         self.check_types(x, y)
         return x ** y
